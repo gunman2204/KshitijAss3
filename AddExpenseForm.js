@@ -86,7 +86,7 @@ export default function AddExpenseForm({ addExpense}) {
     return (
         <form onSubmit={handleSubmit}>
 
-            <div id="addExpense" className="flex">
+            <div id="addExpense" className="flex mx-4 mt-5">
                 <div>
                     <p className='text'>Add  Expenses</p>
                 </div>
@@ -127,15 +127,3 @@ export default function AddExpenseForm({ addExpense}) {
 
     )
 }
-
-// AddExpenseForm.addExpenseTypes={
-//     time : addExpense.string.isRequired,
-//     amount: addExpense.string.isRequired,
-//     description: addExpense.string.isRequired,
-//     category: addExpense.string.isRequired
-// };
-// Navbar.propTypes = {
-    //   title: PropTypes.string.isRequired,
-    //   aboutText: PropTypes.string
-    
-    // }
